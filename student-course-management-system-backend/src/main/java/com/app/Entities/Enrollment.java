@@ -15,6 +15,12 @@ public class Enrollment {
     private Long courseId;
     
     
+    
+	public Enrollment() {
+		super();
+	}
+
+
 	public Enrollment(Long id, Long studentId, Long courseId) {
 		super();
 		this.id = id;

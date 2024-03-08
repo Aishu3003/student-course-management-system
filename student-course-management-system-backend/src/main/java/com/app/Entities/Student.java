@@ -14,6 +14,10 @@ public class Student {
     private String name;
     
     
+	public Student() {
+		super();
+	}
+
 	public Student(Long id, String name) {
 		super();
 		this.id = id;
