@@ -1,2 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="com.app.repository.StudentRepository"/>
+    <fullyQualifiedTypeName name="com.app.repository.CourseRepository"/>
+    <fullyQualifiedTypeName name="com.app.repository.EnrollmentRepository"/>
+    <fullyQualifiedTypeName name="com.app.Service.StudentService"/>
+    <fullyQualifiedTypeName name="com.app.Entities.Student"/>
+    <fullyQualifiedTypeName name="com.app.Service.CourseService"/>
+    <fullyQualifiedTypeName name="com.app.Entities.Course"/>
+    <fullyQualifiedTypeName name="com.app.Service.EnrollmentService"/>
+    <fullyQualifiedTypeName name="com.app.Entities.Enrollment"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+</qualifiedTypeNameHistroy>

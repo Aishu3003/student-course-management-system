@@ -11,7 +11,7 @@ import com.app.Service.EnrollmentService;
 
 import java.util.List;
 import java.util.Optional;
-
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/enrollments")
 public class EnrollmentController {

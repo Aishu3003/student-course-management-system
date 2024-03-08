@@ -1,5 +1,7 @@
 package com.app.Entities;
 
+import java.sql.Date;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -13,6 +15,7 @@ public class Enrollment {
     private Long id;
     private Long studentId;
     private Long courseId;
+    private Date enrollmentDate;
     
     
     
@@ -20,13 +23,16 @@ public class Enrollment {
 		super();
 	}
 
+	
 
-	public Enrollment(Long id, Long studentId, Long courseId) {
+	public Enrollment(Long id, Long studentId, Long courseId, Date enrollmentDate) {
 		super();
 		this.id = id;
 		this.studentId = studentId;
 		this.courseId = courseId;
+		this.enrollmentDate = enrollmentDate;
 	}
+
 
 
 	public Long getId() {
@@ -59,11 +65,25 @@ public class Enrollment {
 	}
 
 
+	public Date getEnrollmentDate() {
+		return enrollmentDate;
+	}
+
+
+	public void setEnrollmentDate(Date enrollmentDate) {
+		this.enrollmentDate = enrollmentDate;
+	}
+
+
+
 	@Override
 	public String toString() {
-		return "Enrollment [id=" + id + ", studentId=" + studentId + ", courseId=" + courseId + "]";
+		return "Enrollment [id=" + id + ", studentId=" + studentId + ", courseId=" + courseId + ", enrollmentDate="
+				+ enrollmentDate + "]";
 	}
-    
+
+
+	
     
     
 }
